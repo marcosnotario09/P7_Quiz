@@ -10,12 +10,20 @@
 		 num.value = Math.pow(num.value, 3);
 	}
 
+
 	function seno{
 
 
 		var num = document.getElementById("n1");
 
 		var num = Math.sin(num.value);
+
+	function cuarta(){
+		
+		var num = document.getElementById("n1");
+		
+		num.value = Math.pow(num.value, 4);
+
 	}
 </script>
 </head>
@@ -24,8 +32,14 @@
 
 Number:
 <input type="text" id="n1">
-  <button onclick="cube()"> x^3 </button>
-  <button onclick="sin()"> seno </button>
+
+
+ 	 <button onclick="cube()"> x^3 </button>
+ 	 <button onclick="sin()"> seno </button>
 	
+
+ 
+	<button onclick="cuarta()"> x^4 </button>
+
 </body>
 </html>
